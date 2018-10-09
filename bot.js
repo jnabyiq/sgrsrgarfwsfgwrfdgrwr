@@ -343,10 +343,7 @@ client.on('message', message => {
 });
 
 
-client.on('ready', () => {
-    client.user.setGame('Hello World!', 'https://www.twitch.tv/idkwho');
-});
 
 
-});
+
 client.login(process.env.BOT_TOKEN);
